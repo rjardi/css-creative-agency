@@ -261,6 +261,8 @@ body {
   background-image: url("../img/hero-background.jpg");
   background-repeat: no-repeat;
   background-position: top right;
+  font-family: var(--primary-font);
+  font-style: normal;
 }
 
 .container{
@@ -288,9 +290,7 @@ header nav ul{
 header nav ul a{
   color: var(--color-white);
   text-decoration: none;
-  font-family: var(--primary-font);
   font-weight: 300;
-  font-style: normal;
   font-size: 18px;
 }
 
@@ -299,9 +299,7 @@ header a.contact-button{
   margin-left: auto;
   padding: 16px;
   color: var(--color-white);
-  font-family: var(--primary-font);
   text-decoration: none;
-
 }
 
 section.hero{
@@ -310,26 +308,19 @@ section.hero{
   width: 50%;
 }
 
-
-
 .hero a{
   background-color: var(--color-white);
   text-decoration: none;
   color: var(--color-black);
   padding: 20px;
-  font-family: var(--primary-font);
   font-weight: 400;
-  font-style: normal;
   font-size: 24px;
-  
 
 }
 
 .hero p{
   color: var(--color-white);
-  font-family: var(--primary-font);
   font-weight: 300;
-  font-style: normal;
   font-size: 24px;
 }
 
@@ -339,9 +330,7 @@ section.hero{
 
 .hero h1{
   color: var(--color-white);
-  font-family: var(--primary-font);
   font-weight: 650;
-  font-style: normal;
   font-size: 64px;
   margin: 0;
   padding: 0;
@@ -349,8 +338,6 @@ section.hero{
 
 .categories{
   background-color: var(--color-white);
-  /* margin: 0; */
-  /* margin-left: -16px; */
   padding: 60px 76px;
   display: flex;
   gap: 80px;
@@ -363,18 +350,13 @@ section.hero{
 
 .category h3{
   color: var(--color-black);
-  font-family: var(--primary-font);
   font-weight: 650;
-  font-style: normal;
   font-size: 18px;
- 
 }
 
 .category p{
   color: var(--color-grey);
-  font-family: var(--primary-font);
   font-weight: 300;
-  font-style: normal;
   font-size: 18px;
 
 }
